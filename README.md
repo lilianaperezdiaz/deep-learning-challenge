@@ -13,7 +13,6 @@ Running this machine allows us to process data to analyze the patterns within th
 **Results***
 
 Our model for the Alphabet Soup Charity Optimization at 100 epochs shows that the more epochs run, the higher the accuracy which decreases the amount of loss.  The outcome of this model is showing us if the money that was funded to the applicates was used successfully or not. By adding a validation split to the machine and altering the hidden node layers of the models we can attempt to increase the accuracy of the model to get closer to 75%. I was able to decrease both the first and second hidden node layers to increase the accuracy of the model to start at 74.11% with a loss of 53.49% and end at 74.62% with a loss of 53.11%. I decreased the layers of the model to reduce the possibility of overfitting the data and have the model work better with the training data without having the model memorize the training data. With the decreased layers the model got slighting closer to the target however it did not reach 75% after various tries. To continue improving the model I changed the layers multiple times to see which combination allowed the model to get closer to 75%. 
-![image](https://github.com/user-attachments/assets/cb4557ab-ece6-401d-bda5-dcc86365d187)
 
 
 **Resources**
